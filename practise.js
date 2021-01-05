@@ -162,7 +162,7 @@ console.log('atleast1maleChar', atleast1maleChar);
 
 //2. Is there at least one character with blue eyes?
 const atleast1blueEyeChar = characters.some(char => char.eye_color === 'blue');
-console.log('atleast1maleChar', atleast1maleChar);
+console.log('atleast1blueEyeChar', atleast1blueEyeChar);
 
 //3. Is there at least one character taller than 210?
 const atleast1CharTallerThan210 = characters.some(char => char.height > 210);
